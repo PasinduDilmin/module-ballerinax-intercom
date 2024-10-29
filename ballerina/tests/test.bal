@@ -249,10 +249,6 @@ isolated function  testLisDataAttributes() {
 }
 
 @test:Config {}
-isolated function  testCreateDataAttribute() {
-}
-
-@test:Config {}
 isolated function  testCreateTicketTypeAttribute() {
 }
 
