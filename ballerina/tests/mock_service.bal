@@ -25,16 +25,7 @@ listener http:Listener httpListener = new (9090);
 
 # The intercom API reference.
 http:Service mockService = service object {
-    # Gets invoked to initialize the `connector`.
-    #
-    # + config - The configurations to be used when initializing the `connector` 
-    # + serviceUrl - URL of the target service 
-    # + return - An error if connector initialization failed 
-    public isolated function init(ConnectionConfig config, string serviceUrl = "https://api.intercom.io") returns error? {
-        return;
-    }
-
-    # Delete an article
+# Delete an article
     #
     # + id - The unique identifier for the article which is given by Intercom.
     # + headers - Headers to be sent with the request 
