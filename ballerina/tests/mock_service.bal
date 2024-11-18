@@ -25,7 +25,7 @@ listener http:Listener httpListener = new (9090);
 
 # The intercom API reference.
 http:Service mockService = service object {
-# Delete an article
+    # Delete an article
     #
     # + id - The unique identifier for the article which is given by Intercom.
     # + headers - Headers to be sent with the request 
